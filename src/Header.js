@@ -28,9 +28,9 @@ function Header(){
                 <span className="nav_itemLineTwo">Shop</span>
             </div>
 
-            <div className="nav_item">
-                <ShoppingBasketIcon className="itemBasket" fontSize="large"/>
-                <span className="nav_itemLineTwo">0</span>
+            <div className="nav_itemBasket">
+                <ShoppingBasketIcon/>
+                <span className="nav_itemLineTwo nav_basketCount">0</span>
             </div>
         </div>
     </div>
